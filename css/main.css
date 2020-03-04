@@ -3,20 +3,16 @@
 body {
     font-family: "Muli", sans-serif;
     font-weight: 400;
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
-html {
-    /* backround-image: ; */
-    padding: 2rem;
-}
-
-h1 {
+header > h1 {
     text-transform: uppercase;
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 2rem;
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 5rem;
 }
 
 a {
@@ -25,30 +21,26 @@ a {
 
 main > h2{
     background-color: pink;
-    margin (10px 10px 10px 10px);
+    font-size: 2rem;
+    text-align: center;
 }
 
 a:hover {
     color: orangered;
 }
 
-header > h1 {
-    color: gray;
-    font-size: 4rem;
-}
-
 img {
-    /* width:10rem; */
-    border-right:2.5rem solid orangered;
+    border-right: 2.5rem solid orangered;
     border-bottom: 2.5rem solid pink;
-    border-left:2.5rem solid orangered;
+    border-left: 2.5rem solid orangered;
     border-top: 2.5rem solid pink;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 
-section > img {
-    border-right: 20px solid orangered;
+p:last-child {
+   text-align: center; 
 }
 
-/* ol > li::first-letter{
-    color:orangered; */
-}
+
