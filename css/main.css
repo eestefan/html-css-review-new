@@ -30,10 +30,10 @@ a:hover {
 }
 
 img {
-    border-right: 2.5rem solid orangered;
-    border-bottom: 2.5rem solid pink;
-    border-left: 2.5rem solid orangered;
     border-top: 2.5rem solid pink;
+    border-right: 2.5rem solid orangered;
+    border-bottom: 2.5rem solid orangered;
+    border-left: 2.5rem solid pink;
     display: block;
     margin-left: auto;
     margin-right: auto;
