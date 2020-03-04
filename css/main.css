@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+
+body {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+  }
+
+html {
+    /* backround-image: ; */
+    padding: 2rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: gray;
+}
+
+main > h2{
+    background-color: pink;
+    margin (10px 10px 10px 10px);
+}
+
+a:hover {
+    color: orangered;
+}
+
+header > h1 {
+    color: gray;
+    font-size: 4rem;
+}
+
+img {
+    /* width:10rem; */
+    border-right:2.5rem solid orangered;
+    border-bottom: 2.5rem solid pink;
+    border-left:2.5rem solid orangered;
+    border-top: 2.5rem solid pink;
+    }
+
+section > img {
+    border-right: 20px solid orangered;
+}
+
+/* ol > li::first-letter{
+    color:orangered; */
+}
